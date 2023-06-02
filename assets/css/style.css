@@ -66,8 +66,8 @@ nav ul li a:hover:after {
 }
 .btn:hover {
   background: transparent;
-  border-color: #fd4766;
-  color: #fd4766;
+  border-color: #0dcac1;
+  color: #19c575;
 }
 .content {
   position: absolute;
@@ -99,7 +99,7 @@ nav ul li a:hover:after {
   width: 70%;
 }
 .content h1 span {
-  color: #fd4766;
+  color: #6e2632;
 }
 .content p {
   width: 55%;
