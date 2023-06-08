@@ -1,57 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Personal Portfolio Website</title>
+    <title>Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
-  <body>
-    <!--my navigation bar-->
-    <div class="hero">
-      <nav>
-        <ul> <!-- <a is an anchor tag-->
-          <!--href is an attribute-->
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <a href="#" class="btn">Resume</a>
-      </nav>
 
-      <main>
-        <!--about me with my image-->
-        <aside>
-          <h2>About me</h2>
-          <div class="sample-img"> <img src="./assets/images/Alex Kelm (2).jpg">
-          <p>
-         
-          </p>
-        </aside>
+  <div class="wrapper">
+    <header class="main-head">Alex Tester: Future Web Developer</header>
+    
+    <!---->
+    <nav class="main-nav">
+      <ul>
+        <!--href is an attribute-->
+        <li><a href="#about">About</a></li>
+        <li><a href="#work-container">Work</a></li>
+        <li><a href="#contact-me">Contact</a></li>
+      </ul>
+      
+    </nav>
+    <!---->
+    <article class="content" id="about">
+      <h1>About Me</h1>
+      <!---->
+      <div> <img src="./assets/images/Alex Kelm (2).jpg" class="sample-img" alt="Alex Tester self portrait">
+        <span class="link"></span>
+      <p>
+        I served four years in the United States Marine Corps as an Automotive Technician.
+        When my contract ended, I joined the welding field for two years before starting courses in the medical field.
+        I found myself more interested in the future of coding and computers so I decided the MSU Bootcamp was the right fit for me.
+      </p>
+    </article>
+    <!---->
+    <section class="work" id="work-container">
+      <h2>My first project</a></h2>
+      <p><a href="https://dnttstme.github.io/prework-study-guide/">Prework Study Guide</a></p>
+      
+      <img src="./assets/images/Prework-study.png" class="prework-img" alt="Image of prework header">
+       <!--the link to my first major project-->
+    </section>
+    <!---->
+    <section class="link-1">
+      <h2>Project Uno</h2>
+      <img src="./assets/images/Tree.jpg" class="tree-img" alt="Image of tree with pink background">
 
-        <section class="work">
-          <header>Work</header>
-        </section>
+    <!---->
+    </section>
+    <section class="link-2">
+      <h2>Project Dos</h2>
+      <img src="./assets/images/Meadow.jpg" class="meadow-img" alt="Image of a meadow">
 
-        <section class="contact">
-          <header>Contact me</header>
-         </section>
+    <!---->
+    </section>
+    <section class="link-3">
+      <h2>Project Tres</h2>
+      <img src="./assets/images/Flowers.jpg" class="flowers-img" alt="Image of flowers">
 
-      <div class="content">
-        <!--right side of page with name-->
-        <span class="title">Future Web Developer</span>
-        <h1>Hello, I’m <span>Alex</span></h1>
-        <p>
-          I’m working on a portfolio to showcase my present and future projects.
-        </p>
-        <a href="#" class="btn">Download CV</a>
-      </div>
-    </div>
-  </body>
+    <!---->
+    </section>
+    <section class="link-4">
+      <h2>Project Cuatro</h2>
+      <img src="./assets/images/Mountains.jpg" class="mountains-img" alt="Image of mountains">
+
+
+    </section>
+
+    <!---->
+    <footer class="main-footer" id="contact-me">
+      <h2>Contact me</h2>
+    </footer>
+  </div>
+  
 </html>
+
 
 
