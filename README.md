@@ -32,5 +32,7 @@ https://www.codewithrandom.com/2023/03/13/personal-portfolio-website/?utm_conten
 
 https://coolors.co/507255-0f0a0a-bfc3ba-b33951-8c2f39
 
+https://developer.mozilla.org/en-US/
+
 ## License
 Please refer to the License in the repository. 
