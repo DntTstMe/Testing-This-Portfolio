@@ -9,7 +9,12 @@ This portfolio will display present and/or future applications as well as contac
 * I learned that dedicating your time and putting in the work is both rewarding and enlightening. I learned a lot and feel more confiedent in myself than I did previously.*
 * I feel that my project stands out because it is a piece of me that I put lots of hardwork and time into adjusting and styling so that I could feel proud of how far I have already come in the program.
 
-LINK
+
+Screenshot of page
+![image](https://github.com/DntTstMe/Testing-This-Portfolio/assets/132702296/736a0add-a329-4c95-8e6b-d4a6ccdf4536)
+
+Link to page
+https://dnttstme.github.io/Testing-This-Portfolio/
 
 ## Installation
 N/A
