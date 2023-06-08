@@ -9,7 +9,8 @@
     "work"
     "footer";
 }
-/**/
+/*Header, adjusts my name color gradient*/
+/* Class Selectors select all elements with that class */
 .main-head {
   grid-area: header;
   margin-left: 20px;
@@ -39,12 +40,13 @@
   background: #1A759F;
   border: 2px solid black;
 }
-/*my image*/
+/*my self-portrait image*/
 .sample-img {
   border: 1px solid black;
   border-radius: 50%;
 }
-
+ 
+/*Section containing project images*/
 .prework-img {
   width: 100%;
   height: 73%;
@@ -77,34 +79,33 @@
   background: #52B69A;
   border: 2px solid black;
 }
-/*Link to prework study guide, first project*/
 
-/**/
+/*My project blocks*/
 .link-1 {
   grid-area: link-1;
   background: #34A0A4;
   border: 2px solid black;
 }
-/**/
+
 
 .link-2 {
   grid-area: link-2;
   background: #34A0A4;
   border: 2px solid black;
 }
-/**/
+
 .link-3 {
   grid-area: link-3;
   background: #34A0A4;
   border: 2px solid black;
 }
-/**/
+
 .link-4 {
   grid-area: link-4;
   background: #34A0A4;
   border: 2px solid black;
 }
-/*my nav color*/
+/*my navigation bar*/
 .main-nav {
   grid-area: nav;
   display: flex;
@@ -112,7 +113,7 @@
   background-color: #76C893;
   border: 2px solid black;
 }
-/*my nav words*/
+/*my navigation bar words*/
 .main-nav a {
   color: #13293d;
   padding: 14px 20px;
@@ -129,7 +130,8 @@
   position: relative;
   padding: 5px 0;
 }
-.main-nav ul li a:hover { /*pseudo class */
+/*navigation bar hover*/
+.main-nav ul li a:hover { 
   color: #04613a;
 }
 .main-nav ul li a:after {
@@ -145,28 +147,8 @@
 .main-nav ul li a:hover:after {
   width: 100%;
 }
-/*my button adjustments*/
-.btn {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 16px 40px;
-  border-radius: 500px;
-  display: inline-block;
-  font-weight: 500;
-  transition: all 0.4s ease-in-out;
-  background-size: 152% 100%;
-  background: #6e2632;
-  border: 2px solid black;
-}
-/**/
-.btn:hover {
-  background: transparent;
-  border-color: black;
-  color: #19c575;
-}
-/**/
+
+/*footer styling*/
 .main-footer {
   grid-area: footer;
   width: 100%;
