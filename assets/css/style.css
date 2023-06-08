@@ -86,20 +86,16 @@
   background: #34A0A4;
   border: 2px solid black;
 }
-
-
 .link-2 {
   grid-area: link-2;
   background: #34A0A4;
   border: 2px solid black;
 }
-
 .link-3 {
   grid-area: link-3;
   background: #34A0A4;
   border: 2px solid black;
 }
-
 .link-4 {
   grid-area: link-4;
   background: #34A0A4;
@@ -147,7 +143,6 @@
 .main-nav ul li a:hover:after {
   width: 100%;
 }
-
 /*footer styling*/
 .main-footer {
   grid-area: footer;
